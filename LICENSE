@@ -1,0 +1,64 @@
+MIT License
+
+Copyright (c) 2025 AI Voice Assistant for Appointment Booking
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## TELECOMMUNICATION & VOICE SERVICES DISCLAIMER
+
+**IMPORTANT: This software is for educational and demonstration purposes.**
+
+### Service Requirements
+
+This voice assistant system:
+
+- Requires active Twilio account and valid credentials
+- Requires AWS account for Polly text-to-speech services
+- May incur charges from third-party service providers
+- Requires compliance with telecommunication regulations
+
+### Usage Restrictions
+
+Users are responsible for:
+- Obtaining proper Twilio and AWS credentials
+- Complying with TCPA (Telephone Consumer Protection Act)
+- Following telemarketing and robocalling regulations
+- Respecting Do Not Call registries
+- Obtaining consent before making automated calls
+- Ensuring GDPR and privacy law compliance
+
+### Legal Compliance
+
+- Automated calling systems must comply with local laws
+- Users must obtain consent for recording calls
+- Voice data must be handled according to privacy regulations
+- Healthcare appointments require HIPAA compliance
+- Financial services require additional security measures
+
+### Liability Waiver
+
+The authors and contributors:
+- Disclaim all liability for service charges
+- Make no guarantees of service availability
+- Assume no responsibility for regulatory violations
+- Provide no warranty for production deployment
+
+**REGULATORY NOTICE:** Automated calling and voice systems are subject to federal and state regulations. Ensure compliance with all applicable laws before deployment.
