@@ -1,0 +1,140 @@
+# ========================================
+# AI VOICE ASSISTANT - .gitignore
+# Protected Files & Credentials
+# ========================================
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+config.ini
+secrets.yaml
+
+# API Keys & Credentials
+twilio_credentials.json
+aws_credentials.json
+api_keys.txt
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+voice_env/
+.venv
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+call_logs/
+voice_logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/
+db/
+
+# Redis dump
+dump.rdb
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Documentation Build
+docs/_build/
+site/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# System Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ngrok
+ngrok
+ngrok.exe
+ngrok.yml
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Audio Files (if any)
+*.mp3
+*.wav
+*.ogg
+audio_recordings/
+
+# Call Recordings
+recordings/
+voicemail/
+
+# Backup Files
+backups/
+*.backup
+
+# CI/CD
+.github/workflows/*.yml.backup
+
+# Cloud Provider
+.aws/
+.gcloud/
+
+# Monitoring
+prometheus_data/
+grafana_data/
