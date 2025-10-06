@@ -1,0 +1,67 @@
+# ========================================
+# AI VOICE ASSISTANT FOR APPOINTMENTS
+# Production Dependencies
+# ========================================
+
+# FastAPI Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Twilio SDK
+twilio>=8.10.0
+
+# AWS Integration
+boto3>=1.29.0
+botocore>=1.32.0
+
+# Database (Optional)
+sqlalchemy>=2.0.0
+databases>=0.8.0
+asyncpg>=0.29.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# HTTP Client
+httpx>=0.25.0
+requests>=2.31.0
+
+# Data Validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Date/Time Handling
+python-dateutil>=2.8.2
+
+# Logging
+python-json-logger>=2.0.7
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Code Quality
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
+
+# API Documentation
+python-jose>=3.3.0
+
+# CORS Middleware
+starlette>=0.27.0
+
+# Redis (Optional - for caching)
+redis>=5.0.0
+aioredis>=2.0.1
+
+# Celery (Optional - for async tasks)
+celery>=5.3.0
+
+# Monitoring
+prometheus-client>=0.19.0
+
+# Security
+cryptography>=41.0.0
