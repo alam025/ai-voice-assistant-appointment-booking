@@ -28,6 +28,7 @@ def voice_response():
     <Say voice="Polly.Joanna">We didn’t receive any input. Goodbye!</Say>
 </Response>
 """
+# Add Gather element for input
 
 @app.post("/process", response_class=PlainTextResponse)
 def process_response(Digits: str = Form(...)):
