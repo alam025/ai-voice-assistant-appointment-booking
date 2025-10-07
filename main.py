@@ -12,6 +12,8 @@ app = FastAPI()
  #Add complete TwiML XML response
  
  # Add pause after greeting
+ 
+ # Add fallback message
 @app.post("/voice", response_class=PlainTextResponse)
 def voice_response():
     return """<?xml version="1.0" encoding="UTF-8"?>
