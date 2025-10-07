@@ -10,6 +10,8 @@ app = FastAPI()
 # Add /voice endpoint structure
 
  #Add complete TwiML XML response
+ 
+ # Add pause after greeting
 @app.post("/voice", response_class=PlainTextResponse)
 def voice_response():
     return """<?xml version="1.0" encoding="UTF-8"?>
@@ -17,7 +19,7 @@ def voice_response():
     <Say voice="Polly.Joanna" language="en-US">
         Hello, this is your virtual assistant calling on behalf of John Doe to schedule a consultation with Dr. Smith.
     </Say>
-    <Pause length="1"/>
+    <Pause length="1"/> 
     <Gather numDigits="1" action="/process" method="POST">
         <Say voice="Polly.Joanna" language="en-US">
             Please press 1 for Monday morning, 2 for Tuesday afternoon, or 3 for Wednesday evening.
