@@ -8,6 +8,8 @@ from fastapi.responses import PlainTextResponse
 app = FastAPI()
 
 # Add /voice endpoint structure
+
+ #Add complete TwiML XML response
 @app.post("/voice", response_class=PlainTextResponse)
 def voice_response():
     return """<?xml version="1.0" encoding="UTF-8"?>
