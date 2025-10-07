@@ -32,6 +32,8 @@ def voice_response():
 """
 # Add Gather element for input
 
+# Add /process endpoint
+
 @app.post("/process", response_class=PlainTextResponse)
 def process_response(Digits: str = Form(...)):
     if Digits == "1":
