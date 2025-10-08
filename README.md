@@ -197,7 +197,6 @@ ngrok http 8000
 # Copy the HTTPS URL and configure in Twilio webhook
 https://your-ngrok-url.ngrok.io/voice
 ```
-
 ---
 
 <div align="center">
