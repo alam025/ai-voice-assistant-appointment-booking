@@ -4,6 +4,8 @@
 
 from fastapi import FastAPI, Form
 from fastapi.responses import PlainTextResponse
+from twilio.rest import Client
+
 
 app = FastAPI()
 
@@ -84,3 +86,12 @@ def process_response(Digits: str = Form(...)):
 <Response>
     <Say voice="alice">{msg}</Say>
 </Response>"""
+
+def send_sms_confirmation(phone, message):
+    """Send SMS confirmation via Twilio."""
+    client = Client(account_sid, auth_token)
+    client.messages.create(
+        body=message,
+        from_=twilio_number,
+        to=phone
+    )
