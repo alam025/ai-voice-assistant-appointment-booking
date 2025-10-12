@@ -517,6 +517,10 @@ Payment Security<br/>
 <tr>
 <td width="50%">
 
+## Live Demo
+
+https://drive.google.com/file/d/1fGiFCd6z0v6ljt-3x9ORWebncsL5EHFV/view?usp=drive_link
+
 ### 💼 TECHNICAL SKILLS DEMONSTRATED
 
 ✅ **FastAPI Framework** - Modern async Python web framework<br/>
